@@ -1,10 +1,11 @@
 __all__ = (
     'is_prime',
 )
-
+from math import sqrt
 
 def is_prime(number: int) -> bool:
-    """
-    Функция должна вернуть True если число является простым, иначе - False
-    """
-    raise NotImplementedError
+    prime = True
+    for i in range(int(sqrt(number) + 1)) :
+        if number % i == 0 :
+            prime = False
+    return prime
