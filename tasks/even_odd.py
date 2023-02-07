@@ -16,7 +16,5 @@ def even_odd(arr: list[int]) -> float:
             even = even + i
         else:
             odd = odd + i
-    
+    if odd == 0 : return 0
     return (even / odd)
-
-print(even_odd([1,2,3,4,5]))

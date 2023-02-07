@@ -16,7 +16,7 @@ def seconds_to_str(seconds: int) -> str:
             ans = ans + '0' + str(days) + 'd'
         else :
             ans = ans + str(days) + 'd'
-    if(hours != 0) :
+    #if(hours != 0) :
     raise NotImplementedError
 
 
