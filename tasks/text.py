@@ -12,7 +12,7 @@ def find_shortest_longest_word(text: str) -> tuple[Optional[str], Optional[str]]
     """
     inp = list(input().split())
     ma = inp[0]
-    mi =
-    for i in inp:
+    #mi =
+    #for i in inp:
 
     raise NotImplementedError

@@ -197,7 +197,7 @@ class TestBFS:
 
         g = Graph(a)
 
-        assert bfs_values(g) == ['a', 'b', 'c', 'd', 'f', 'e']
+        #assert bfs_values(g) == ['a', 'b', 'c', 'd', 'f', 'e']
 
         assert bfs_values(g) == ['a', 'b', 'c', 'd', 'f', 'e']
 
