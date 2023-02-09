@@ -47,7 +47,9 @@ class Graph:
             for i in d.outbound:
                 if i not in self.ans and i not in que:
                     que.append(i)
-        return self.ans
+        anss = self.ans
+        self.ans = []
+        return anss
     
 a = Node('a')
 b = Node('b')
