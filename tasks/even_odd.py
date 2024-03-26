@@ -18,3 +18,5 @@ def even_odd(arr: list[int]) -> float:
             odd = odd + i
     if odd == 0 : return 0
     return (even / odd)
+
+#ya kogdato eto delal, pog
